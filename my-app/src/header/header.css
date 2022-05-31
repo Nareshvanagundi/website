@@ -1,4 +1,42 @@
-h1{
-    text-align: center;
-    text-transform: capitalize;
+.header-main {
+    width: 100%;
+    background: #f7f9fa;
+    box-shadow: 0 0 40px rgb(0 0 0 / 10%);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title {
+    width: 30%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.link {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.empty {
+    width: 10%;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+
+}
+
+.list-link {
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.5s ;
+}
+.list-link:hover{
+color: #FF5733;
 }
